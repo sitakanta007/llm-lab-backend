@@ -71,6 +71,4 @@ app.use(
   }
 );
 
-app.listen(PORT, () => {
-  console.log(`Backend listening on port ${PORT}`);
-});
+export default app;
