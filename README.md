@@ -7,6 +7,10 @@
 - /api/generate calls real OPENAI LLM API Model / simulates LLM responses with metrics
 - /api/experiments and /api/summary support SSR prefetch
 - Proper HTTP status codes
+- Switch API calls between real API and mock API using mock paramters ( true/false)
+- Migrated to Typescript, type checks and interfaces added where required
+- Random mathematical calculation added for different metrics.
+- Logging added for api calls and parameters 
 
 ## Run
 ```
