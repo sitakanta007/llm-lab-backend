@@ -5,17 +5,17 @@ Built with Node.js, Express, and TypeScript, this service provides structured AP
 
 🚀 Features
 
-⚡ RESTful API endpoints for experiment generation and retrieval
+RESTful API endpoints for experiment generation and retrieval
 
-🧱 Clean layered architecture (Routes, Services, Utils)
+Clean layered architecture (Routes, Services, Utils)
 
-📜 Swagger API documentation
+Swagger API documentation
 
-🩺 Health check & logging for monitoring
+Health check & logging for monitoring
 
-🌐 Deployment ready (EC2 + Route 53)
+Deployment ready (EC2 + Route 53)
 
-🛠️ Tech Stack
+🛠 Tech Stack
 
 Language: TypeScript
 
@@ -23,7 +23,7 @@ Framework: Node.js + Express
 
 Documentation: Swagger
 
-Data Storage: JSON-based (lightweight)
+Storage: Lightweight JSON
 
 Deployment: AWS EC2, Route 53
 
@@ -47,7 +47,7 @@ npm run build
 npm run start
 
 
-📝 Recommended Node version: 18.x or above
+Recommended Node version: 18.x or above
 
 🧭 Architecture Overview
 
@@ -75,9 +75,9 @@ POST	/api/generate	Generate experiment results
 GET	/api/experiments	List saved experiments
 GET	/api/experiments/:id	Get experiment details
 GET	/api/summary	Aggregate statistics
-🧰 Deployment
+🚀 Deployment
 
-Build the project using:
+Build the project:
 
 npm run build
 
@@ -90,8 +90,8 @@ Optionally set up Amazon Route 53 for subdomain routing.
 
 📈 Logging & Monitoring
 
-All logs are stored in server.log
+Logs are stored in server.log
 
 /health endpoint is available for uptime checks
 
-Swagger UI for interactive API testing
+Swagger UI is available for interactive API testing
